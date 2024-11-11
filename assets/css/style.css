@@ -1,0 +1,206 @@
+/*geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    border: 0;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface img{
+    width: 80px;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #1d2f3d;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #1d2f3da9;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+h2.titulo{
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #5c6f7d;;
+}
+
+/* cabeçalho */
+
+header{
+    padding: 20px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    display: inline-block;
+    color: #7d7d7d;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* topo site */
+section.topo-do-site{
+    padding: 30px 4%;
+}
+
+.img-topo img{
+    width: 400px;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.topo-do-site .txt-topo h1{
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.topo-do-site .txt-topo h1 span{
+    color: #5c6f7d;
+    font-size: 60px;
+}
+
+.topo-do-site .txt-topo p{
+   margin: 40px 0;
+}
+
+.topo-do-site .img-topo img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0% {
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* Especialidades */
+
+section.especialidades{
+    padding: 70px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .esp-box{
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.especialidades .esp-box:hover{
+    scale: (1.05);
+    box-shadow: 0 0 15px #ffffff56;
+}
+
+.especialidades .esp-box i{
+    font-size: 70px;
+    color: #5c6f7d;
+}
+
+.especialidades .esp-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* Sobre */
+
+.img-sobre img{
+    width: 350px;
+    border-radius: 20px;
+}
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre span{
+    color: #5c6f7d;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #1d2f3d;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
