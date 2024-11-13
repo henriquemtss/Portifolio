@@ -161,6 +161,41 @@ section.especialidades .flex{
     margin: 15px 0;
 }
 
+/* tecnologias */
+
+section.tecnologias{
+    padding: 70px 4%;
+}
+
+section.tecnologias .flex{
+    gap: 60px;
+}
+
+.tecnologias .flex .tec-box{
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.tecnologias .tec-box:hover{
+    scale: (1.05);
+    box-shadow: 0 0 15px #ffffff56;
+}
+
+.tecnologias .tec-box i{
+    font-size: 500px;
+    color: #5c6f7d;
+}
+
+.tecnologias .tec-box h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin: 15px 0;
+}
+
 /* Sobre */
 
 .img-sobre img{
@@ -194,7 +229,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -208,7 +243,7 @@ section.sobre .flex{
 
 section.portifolio{
     padding: 80px 4%;
-    box-shadow: 0 0 30px 10px #ffffff2d;
+    box-shadow: 0 0 30px 10px #ffffff0e;
 }
 
 section.portifolio .flex{
@@ -294,4 +329,27 @@ form .btn-enviar input{
     cursor: pointer;
 }
 
+/* footer */
 
+footer{
+    padding: 10px 4%;
+    box-shadow: 0 0 30px 10px #ffffff0e;
+}
+
+footer .flex{
+    justify-content: space-between;
+
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #5c6f7d;
+}
+
+footer .line-footer p i{
+    color: #5c6f7d;
+    font-size: 18px;
+}
