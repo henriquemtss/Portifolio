@@ -168,7 +168,7 @@ section.tecnologias{
 }
 
 section.tecnologias .flex{
-    gap: 60px;
+    gap: 50px;
 }
 
 .tecnologias .flex .tec-box{
@@ -181,11 +181,6 @@ section.tecnologias .flex{
 .tecnologias .tec-box:hover{
     scale: (1.05);
     box-shadow: 0 0 15px #ffffff56;
-}
-
-.tecnologias .tec-box i{
-    font-size: 500px;
-    color: #5c6f7d;
 }
 
 .tecnologias .tec-box h3{
@@ -383,4 +378,36 @@ footer .line-footer{
 footer .line-footer p i{
     color: #5c6f7d;
     font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    /* geral */
+    
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    /* header */
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    /* tecnologias */
+
+    .tecnologias .tec-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+    
+
+    
 }
