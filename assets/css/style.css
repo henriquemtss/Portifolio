@@ -178,6 +178,15 @@ section.tecnologias .flex{
     transition: .2s;
 }
 
+.test{
+    display: flex;
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+
+}
+
 .tecnologias .tec-box:hover{
     scale: (1.05);
     box-shadow: 0 0 15px #ffffff56;
@@ -380,6 +389,17 @@ footer .line-footer p i{
     font-size: 18px;
 }
 
+.test{
+    display: none;
+}
+
+
+@media screen and (max-width: 1280px) {
+    section.tecnologias{
+        padding: 70px 2%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     
     /* geral */
@@ -397,6 +417,21 @@ footer .line-footer p i{
         display: none;
     }
 
+    /* topo do site */
+    section.topo-do-site{
+        padding: 10px 8%;
+    }
+
+    .topo-do-site .txt-topo h1{
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+
+    .img-topo img{
+        width: 300px;
+    }
+
     /* tecnologias */
 
     .tecnologias .tec-box{
@@ -405,6 +440,11 @@ footer .line-footer p i{
         align-items: center;
         justify-content: center;
     }
+
+    
+
+
+  
 
    
     
