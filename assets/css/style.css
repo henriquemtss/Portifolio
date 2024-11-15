@@ -412,15 +412,27 @@ footer .line-footer p i{
         flex-direction: column;
     }
 
+    h2.titulo{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
     /* header */
     .menu-desktop, .btn-contato{
         display: none;
     }
 
     /* topo do site */
+
+    
     section.topo-do-site{
         padding: 10px 8%;
     }
+
+    section.topo-do-site .flex{
+        gap: 45px;
+    }
+    
 
     .topo-do-site .txt-topo h1{
         font-size: 30px;
@@ -432,7 +444,18 @@ footer .line-footer p i{
         width: 300px;
     }
 
+    /* Especialidades */
+
+    section.especialidades{
+        padding: 30px 8%;
+    }
+
     /* tecnologias */
+
+    section.tecnologias{
+        padding: 30px 8%;
+    }
+    
 
     .tecnologias .tec-box{
         display: flex;
@@ -441,13 +464,72 @@ footer .line-footer p i{
         justify-content: center;
     }
 
+    section.portifolio .flex{
+        gap: 60px;
+    }
+
+    /* sobre */
+    section.sobre .flex{
+        flex-direction: column-reverse;
+    }
     
+    section.sobre{
+        padding: 80px 8%;
+    }
 
+    .sobre .txt-sobre h2{
+        font-size: 30px; 
+        line-height: 30px;
+        text-align: center;
+     
+    }
 
+    .btn-social {
+        text-align: center;
+    }
+    
+    .img-sobre img{
+        width: 250px;
+    }
+
+    /* Projetos */
+
+    section.portifolio{
+        padding: 80px 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .img-port{
+        width: 100%px;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .portifolio #titulo-desc{
+        font-size: 30px;
+        margin-top: 70px;
+    }
   
+    /* footer */
 
-   
-    
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
 
+    footer .line-footer{
+        text-align: center;
+    }
+
+    footer .logo-footer img{
+        width: 70px;
+    }
+
+    footer .line-footer p i{
+        font-size: 15px;
+    }
     
 }
