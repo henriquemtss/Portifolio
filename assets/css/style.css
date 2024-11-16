@@ -468,25 +468,6 @@ footer .line-footer p i{
 }
 
 
-@media screen and (max-width: 1099px) {
-    /* header */
-
-    header .logo img{
-        width: 60px;
-    }  
-
-    .menu-desktop{
-        font-size: 15px;
-    }
-
-    .btn-contato button{
-        color: #fff;
-        padding: 10px 15px;
-        font-size: 15px;
-    }
-    
-}
-
 @media screen and (max-width: 1023px) {
     /* menu mobile */
     .btn-abrir-menu{
@@ -524,7 +505,19 @@ footer .line-footer p i{
     }
     
     
+    header .logo img{
+        width: 60px;
+    }  
 
+    .menu-desktop{
+        font-size: 15px;
+    }
+
+    .btn-contato button{
+        color: #fff;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
     
 
     /* topo do site */
