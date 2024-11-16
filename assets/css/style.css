@@ -468,7 +468,7 @@ footer .line-footer p i{
 }
 
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1024px) {
     /* header */
 
     header .logo img{
@@ -476,13 +476,13 @@ footer .line-footer p i{
     }  
 
     .menu-desktop{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .btn-contato button{
         color: #fff;
         padding: 10px 15px;
-        font-size: 16px;
+        font-size: 15px;
     }
     
 }
